@@ -1,0 +1,131 @@
+*{  margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+  }
+  h1 {
+    color: #ff0000;
+    font-size: 1em;
+    color:white;
+  }
+  
+  .logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ff0000;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .container {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #0000FF;
+    padding: 15px;
+    border-radius: 20px;
+    background-color:rgba(0,0,0,0.9);
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    flex:display;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .songtype{
+    position: relative;
+    top:4px;
+    left:0px;
+  }
+  .container1 {
+    width: 300px;
+    height: 74vh;
+    border: 1px solid #0000FF;
+    padding:15px;
+    margin-top:3px;
+    border-radius: 20px;
+    background-color: rgb(0,0,0,0.9);
+    
+  }
+  .capsule {
+    width: 190px;
+    height: 20px;
+    border: 0.5px solid #ffd500;
+    padding: 15px;
+    margin:20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .plus{
+    position:absolute;
+    top:225px;
+    left:270px;
+  }
+  .type {
+    width:79%;
+    height:100%;
+    border:1px solid blue;
+    border-radius: 20px;
+    position:absolute;
+    top:0;
+    right:0;
+    background-color: black;
+  }
+  .type2 {
+    font-size: 30px;
+    position:relative;
+    top:55px;
+    left:55px;
+  }
+  .song {
+    width: 250px;
+    height:200px;
+    border: 1px solid #ffd500;
+    border-radius: 20px; 
+    position: relative;
+    top: 100px;
+    left: 45px;
+  }
+  
+  audio {
+    width: 250px;
+    height:30px;
+    position: relative;
+    top:100px;
+    left:50px;
+  } 
+  .show {
+  
+    position: relative;
+    top: 30px;
+    left: 1000px;
+  }
+  .search {
+    width: 15px;
+    height: 15px;
+    
+    position: relative;
+    
+    
+    background-color:white;
+  }
+  .home {
+    width: 15px;
+    height: 15px;
+    
+    position: relative;
+    background-color: black;
+  }
+  .type {
+    background-image: url('\Garbage_Trucks_The_Ultimate_Compilation.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
